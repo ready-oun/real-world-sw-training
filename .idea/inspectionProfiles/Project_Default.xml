@@ -1,0 +1,29 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="VulnerableLibrariesLocal" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="isIgnoringEnabled" value="true" />
+      <option name="ignoredModules">
+        <list>
+          <option value="shu_book" />
+          <option value="shu_book" />
+          <option value="shu_book" />
+        </list>
+      </option>
+      <option name="ignoredPackages">
+        <list>
+          <option value="org.eclipse.jetty:jetty-security:9.4.24.v20191120" />
+          <option value="org.eclipse.jetty:jetty-http:9.4.24.v20191120" />
+          <option value="org.eclipse.jetty:jetty-io:9.4.24.v20191120" />
+        </list>
+      </option>
+      <option name="ignoredReasons">
+        <list>
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+          <option value="Not exploitable" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
